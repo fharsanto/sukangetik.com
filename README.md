@@ -1,0 +1,1 @@
+# Static Site powered by Hugo
