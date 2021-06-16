@@ -1,6 +1,6 @@
 baseURL: https://sukangetik.com/
 languageCode: en-us
-title: Toekang Ketik Joernal
+title: Tukang Ketik Jurnal
 theme: "PaperMod"
 
 googleAnalytics: UA-199311806-1
@@ -11,7 +11,7 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Toekang Ketik Joernal
+  title: Tukang Ketik Jurnal
   description: "For tech purposes only"
   keywords: [Blog, Portfolio, PaperMod]
   # author: "@fharsanto"
@@ -51,7 +51,7 @@ params:
   # profile-mode
   profileMode:
     enabled: false # needs to be explicitly set
-    title: Toekang Ketik Joernal
+    title: Tukang Ketik Jurnal
     subtitle: "For tech purposes only"
     imageUrl: "/card.png"
     imageWidth: 120
@@ -118,7 +118,8 @@ taxonomies:
   category: categories
 
 permalinks:
-  posts: ":filename/"
+  posts: ":2006/:01/:title"
+  # posts: ":section/:title"
 #   posts: /:06/:1/:2/:title/
 
 menu:
@@ -127,6 +128,10 @@ menu:
       name: categories
       url: /categories/
       weight: 10
+    - identifier: about
+      name: about
+      url: /about
+      weight: 9      
     - identifier: tags
       name: tags
       url: /tags/

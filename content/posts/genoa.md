@@ -3,6 +3,7 @@ title: "Generating Open API (code name: genoa)"
 date: 2021-06-11T17:37:31+07:00
 # draft: true
 # slug: "genoa"
+# author: "@fharsanto"
 categories: development
 tags: ["first-post","packagist","open-api","library"]
 
