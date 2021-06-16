@@ -2,16 +2,14 @@
 title: "Passing Environment variables to Docker apps"
 date: 2021-06-16T19:43:58+07:00
 # draft: true
-categories: "ci/cd"
-tags: ["ci/cd","continuesintegration","pipeline","shell"]
-# cover:
-#   image: https://e7.pngegg.com/pngimages/475/550/png-clipart-computer-icons-devops-continuous-integration-agile-software-development-continuous-delivery-infinity-miscellaneous-text-thumbnail.png
+categories: "ci-cd"
+tags: ["ci-cd","continuesintegration","pipeline","shell"]
 resources:
 - src: images/github-env.png
   title: Github environment look like
 - src: images/gitlab-env.png
   title: Gitlab environment look like
-
+Description: Tips and Trick passing Environment from repository Environment to docker safety
 ---
 
 Yes, in the past before continues integration era managing configuration apps in multiple environments is pain in the ass. 

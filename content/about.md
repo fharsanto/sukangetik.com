@@ -7,6 +7,7 @@ date: 2021-06-16T18:33:46+07:00
 ShowBreadCrumbs: false
 hidemeta: true
 disableShare: true
+Description: About Feri Harsanto
 ---
 
 > Fathers of two kids  
