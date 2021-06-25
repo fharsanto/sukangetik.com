@@ -1,3 +1,25 @@
 {{- /* Footer custom content area start */ -}}
 {{- /*     Insert any custom code web-analytics, resources, etc. here */ -}}
 {{- /* Footer custom content area end */ -}}
+{{- if (eq .Kind "page") }}
+<script>
+const readingProgress = target => {
+  const maxHeight = document.body.scrollHeight;
+  const sizeHeight = window.innerHeight;
+  const scrolls = window.scrollY;
+  const progress = (scrolls / (maxHeight - sizeHeight)) * 100;
+  const trx = progress - 100 > 0 ? 0 : progress - 100;
+  document.querySelector('.sticky-progress').style.transform = 'translate3d(' + trx + '%, 0px, 0px)';
+  // document.querySelector('#progress-bar').style.width = progress + '%';
+  (progress > 10) ? document.querySelector('body').classList.add('sticky-visible') : document.querySelector('body').classList.remove('sticky-visible');
+};
+
+document.addEventListener('DOMContentLoaded', () => {
+  const content = document.querySelector('main.main');
+  readingProgress(content);
+  window.addEventListener('scroll', () => {
+    readingProgress(content);
+  });
+});
+</script>
+{{- end }}

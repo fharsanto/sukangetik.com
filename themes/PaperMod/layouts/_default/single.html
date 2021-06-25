@@ -1,5 +1,12 @@
 {{- define "main" }}
-
+<header class="sticky">
+  <div class="sticky-title">
+  {{ .Title }}
+  </div>
+  <div class="sticky-track">
+    <div class="sticky-progress"></div>
+  </div>
+</header>
 <article class="post-single">
   <header class="post-header">
     {{ partial "breadcrumbs.html" . }}
