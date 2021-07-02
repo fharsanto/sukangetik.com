@@ -1,6 +1,6 @@
 baseURL: https://sukangetik.com/
 languageCode: en-us
-title: Tukang Ketik Jurnal
+title: Feri Harsanto Jurnal
 theme: "PaperMod"
 
 googleAnalytics: UA-199311806-1
@@ -11,9 +11,9 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Tukang Ketik Jurnal
+  title: Feri Harsanto Jurnal
   description: "For tech purposes only"
-  keywords: [Blog, Portfolio, PaperMod]
+  keywords: [Blog, Portfolio, fharsanto]
   # author: "@fharsanto"
   # author: ["Me", "You"] # multiple authors
   images: ["/card.png"]
@@ -38,6 +38,7 @@ params:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
     favicon: "/favicon.ico"
+    faviconSvg: "/face.svg"
     favicon16x16: "/favicon.ico"
     favicon32x32: "/favicon.ico"
     apple_touch_icon: "/favicon.ico"
@@ -45,13 +46,13 @@ params:
 
   label:
     text: "🏠"
-    icon: /logo-circle.png
+    # icon: /logo-circle.png
     # iconHeight: 35
 
   # profile-mode
   profileMode:
     enabled: false # needs to be explicitly set
-    title: Tukang Ketik Jurnal
+    title: Feri Harsanto Jurnal
     subtitle: "For tech purposes only"
     imageUrl: "/card.png"
     imageWidth: 120

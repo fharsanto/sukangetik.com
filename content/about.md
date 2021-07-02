@@ -1,5 +1,5 @@
 ---
-title: "About Me"
+title: "Hello there 🤚"
 date: 2021-06-16T18:33:46+07:00
 # draft: true
 # url: "about"
@@ -7,14 +7,14 @@ date: 2021-06-16T18:33:46+07:00
 ShowBreadCrumbs: false
 hidemeta: true
 disableShare: true
-Description: About Feri Harsanto
+# Description: About Feri Harsanto
 ---
 
-> Fathers of two kids  
+<!-- > Fathers of two kids  
 > Obsessed with making everything run automatic  
-> Typist with 11 fingers
+> Typist with 11 fingers -->
 
-Greetings, I am a technologist currently working at a fintech technology company.
+Greetings, My name is Feri Harsanto. I am a technologist currently working at a fintech technology company.
 
 I am starting to write [blog posts](../posts) and [tweet](https://twitter.com/fharsanto) regularly.
 
@@ -24,4 +24,4 @@ In the past, i build a consulting company, mostly helping government scaling the
 
 I build this site for "training" my writing skills.
 
-You can reach me within email feri.harsanto@gmail.com or [Twitter](https://twitter.com/fharsanto)  
+You can reach me within email sa@sukangetik.com or [Twitter](https://twitter.com/fharsanto)  
