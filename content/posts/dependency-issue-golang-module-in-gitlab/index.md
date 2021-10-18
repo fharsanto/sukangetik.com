@@ -1,7 +1,7 @@
 ---
 title: "Dependency issue golang Module in Gitlab"
 date: 2021-09-24T15:12:39+07:00
-draft: true
+# draft: true
 categories: ["git", "golang"]
 tags: ["golang","go module","gitlab"]
 # resources:
