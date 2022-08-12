@@ -257,6 +257,15 @@ Pro:
 - Incredibly fast
 - Can integrate with another [Database](https://clickhouse.com/docs/en/integrations/)
 - Designed for analytical purpose
+- Realtime
+- Open Source
+- SQL
 
 Cons:
 - Just insert data, no update or deleted records
+
+## References
+- https://codedaily.in/when-to-use-columnar-databases
+- https://blog.duyet.net/2021/08/good-reasons-to-use-clickhouse.html
+- https://en.wikipedia.org/wiki/Column-oriented_DBMS
+- https://clickhouse.com/docs/en/getting-started/example-datasets/uk-price-paid
