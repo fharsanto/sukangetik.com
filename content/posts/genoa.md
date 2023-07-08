@@ -4,8 +4,8 @@ date: 2021-06-11T17:37:31+07:00
 # draft: true
 # slug: "genoa"
 # author: "@fharsanto"
-categories: development
-tags: ["first-post","packagist","open-api","library"]
+categories: ["development"]
+tags: ["packagist","open-api","library"]
 Description: tukangketik/genoa, tools for Lumen boilerplate CRUD Rest API 
 ---
 

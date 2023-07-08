@@ -2,8 +2,8 @@
 title: "Passing Environment variables to Docker apps"
 date: 2021-06-16T19:43:58+07:00
 # draft: true
-categories: "ci-cd"
-tags: ["ci-cd","continuesintegration","pipeline","shell"]
+categories: ["ci-cd"]
+tags: ["ci/cd","pipeline","shell"]
 resources:
 - src: images/github-env.png
   title: Github environment look like
@@ -16,11 +16,9 @@ Yes, in the past before continues integration era managing configuration apps in
 In modern development, environment file (usually .env file) ignored in repository, how we manage it without committing the credentials in the code?
 Reposity environment came with rescue, in [github](https://docs.github.com/en/actions/reference/environment-variables#about-environment-variables) and [gitlab](https://docs.gitlab.com/ce/ci/environments/) there's environtment tab in your project repository.
 
-![Github Environment](images/github-env.png)
-*Github Environtment look like*
+![Github Environment](images/github-env.png "Github Environtment look like")
 
-![Gitlab Environment](images/gitlab-env.png)
-*Gitlab Environtment look like*
+![Gitlab Environment](images/gitlab-env.png "Gitlab Environtment look like")
 
 Okay, already create the environment configuration in repository (github / gitlab), is it secure? what's next?
 The credential or secret vars will shown by maintainers only, don't worry github / gitlab secured it for us. So what's next? 

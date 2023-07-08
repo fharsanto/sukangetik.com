@@ -2,7 +2,7 @@
 title: "My first impression of ClickHouse"
 date: 2022-08-12T13:47:50+07:00
 # draft: true
-categories: "database"
+categories: ["database"]
 tags: ["analytics","report","database"]
 resources:
   - src: images/project-xls.png
@@ -89,11 +89,9 @@ After [installing](https://clickhouse.com/docs/en/quick-start) it on my desktop,
 You can connect to ClickHouse using the built-in UI or the ClickHouse client.
 
 ### Use the Built-in UI​
-The ClickHouse server listens for HTTP clients on port 8123 by default. There is a built-in UI for running SQL queries at http://127.0.0.1:8123/play (change the hostname accordingly).  
+The ClickHouse server listens for HTTP clients on port 8123 by default. There is a built-in UI for running SQL queries at `http://127.0.0.1:8123/play` (change the hostname accordingly).  
 
-![Play UI](https://clickhouse.com/docs/assets/images/quickstart_01-a6d0b81717fcc498112f333cb8ff772a.png)
-
-
+![Play UI](images/ch-builin-ui.png "Play UI")
 Notice in your Play UI that the username was populated with default and the password text field was left empty. If you assigned a password to the default user, enter it into the password field.
 
 Try running a query. For example, the following returns the names of the predefined databases: 
@@ -101,7 +99,7 @@ Try running a query. For example, the following returns the names of the predefi
 SHOW DATABASES
 ```
 Click the RUN button and the response is displayed in the lower portion of the Play UI:
-![Show DB](https://clickhouse.com/docs/assets/images/quickstart_02-1a2d7f59f32aefc9abdbb87333a6184f.png)
+![Show DB](images/ch-ui-db.png "Show Databases result")
 
 ### Create the Database
 Use the `CREATE DATABASE` command to create a new database in ClickHouse
@@ -157,7 +155,7 @@ SELECT
     )
 ```
 
-![Result Query](images/testing-csv-with-query.png)
+![Result Query](images/testing-csv-with-query.png "Result Query")
 
 Wow, we can also see huge of csv file content direct via ClickHouse.
 
@@ -250,7 +248,7 @@ Result:
 28 rows in set. Elapsed: 0.111 sec. Processed 27.36 million rows, 164.16 MB (245.43 million rows/s., 1.47 GB/s.)
 ```
 
-## Summary
+### Summary
 Pro:
 - You can use for analyzing large dataset csv or text without creating table
 - Efficient storage and (soft) real-time query over the analytics data
@@ -264,7 +262,7 @@ Pro:
 Cons:
 - Just insert data, no update or deleted records
 
-## References
+### References
 - https://codedaily.in/when-to-use-columnar-databases
 - https://blog.duyet.net/2021/08/good-reasons-to-use-clickhouse.html
 - https://en.wikipedia.org/wiki/Column-oriented_DBMS

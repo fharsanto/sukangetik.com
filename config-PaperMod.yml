@@ -1,7 +1,7 @@
 baseURL: https://sukangetik.com/
 languageCode: en-us
 title: Feri Harsanto Jurnal
-theme: "PaperMod"
+theme: "LoveIt"
 
 googleAnalytics: UA-199311806-1
 
@@ -112,7 +112,7 @@ params:
     home:
       - HTML
       - RSS
-      - JSON    
+      - JSON
 
 taxonomies:
   tags: tags
@@ -132,7 +132,7 @@ menu:
     - identifier: about
       name: about
       url: /about
-      weight: 9      
+      weight: 9
     - identifier: tags
       name: tags
       url: /tags/
@@ -140,4 +140,4 @@ menu:
     # - identifier: example
     #   name: example.org
     #   url: https://example.org
-    #   weight: 30  
+    #   weight: 30

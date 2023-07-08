@@ -2,8 +2,8 @@
 title: "Choosing the right Central Log Management (CLM)"
 date: 2021-02-15T22:10:45+07:00
 # draft: true
-categories: monitoring
-tags: ["operational", "monitoring", "opensource", "cloud"]
+categories: ["research"]
+tags: ["operational", "monitoring"]
 Description: Concern before choosing tools for monitoring your stack / product
 
 ---

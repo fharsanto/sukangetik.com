@@ -26,14 +26,13 @@ fatal: unable to update url base from redirection:
 26 	   redirect: https://git.company.com/users/sign_in
 ```
 
-## Create access token for gitlab authorization
+### Create access token for gitlab authorization
 The details you can read details [here](https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html)
 Create access token here https://git.company.com/profile/personal_access_tokens
-![Personal Access Token](images/personal-access-token.png)
-*Make sure check api and read repository*
+![Personal Access Token](images/personal-access-token.png "Make sure check api and read repository")
 
-## Create or edit netrc file
-On linux/Mac the location is on ~/.netrc on windows is on ~/_netrc 
+### Create or edit netrc file
+On linux/Mac the location is on `~/.netrc` on windows is on `~/_netrc` 
 
 Here's the contents:
 ```sh
@@ -42,10 +41,10 @@ login yourUserName
 password YourPersonalAccessToken
 ```
 
-## Set GOPRIVATE on
+### Set GOPRIVATE on
 `go env -w GOPRIVATE=git.company.com`
 
-## Set Redirect properly for git
+### Set Redirect properly for git
 ```
 git config --global url.https://oauth2:YourPersonalAccessToken@git.company.com.insteadOf git.company.com
 
