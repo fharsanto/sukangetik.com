@@ -1,3 +1,4 @@
 # Redirects from what the browser requests to what we serve
 
 https://hardcore-mirzakhani-709dea.netlify.app/* https://sukangetik.com/:splat 301!
+https://main--hardcore-mirzakhani-709dea.netlify.app/* https://sukangetik.com/:splat 301!
