@@ -30,6 +30,8 @@ enableEmoji = true
 # ignore some build errors
 ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
+# sectionPagesMenu = 'main'
+
 # Author config
 [author]
   name = "fharsanto"
@@ -70,6 +72,14 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     name = "Categories"
     url = "/categories/"
     title = ""
+  # [[menu.main]]
+  #   weight = 21
+  #   identifier = "tech"
+  #   pre = ""
+  #   post = ""
+  #   name = "Tech"
+  #   url = "/tech/"
+  #   title = ""    
 
 [params]
   # site default theme ["auto", "light", "dark"]
