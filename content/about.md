@@ -16,7 +16,7 @@ disableShare: true
 
 Greetings, My name is Feri Harsanto. I am a technologist currently working at a fintech technology company.
 
-I am starting to write [blog posts](../posts) and [tweet](https://twitter.com/fharsanto) regularly.
+I am starting to write [blog posts](../posts) and [tweet](https://twitter.com/fhpermadi) regularly.
 
 <!-- I'd like to have fun with an application and infrastructure. -->
 
@@ -24,4 +24,4 @@ In the past, i build a consulting company, mostly helping government scaling the
 
 I build this site for "training" my writing skills.
 
-You can reach me within email sa@sukangetik.com or [Twitter](https://twitter.com/fharsanto)  
+You can reach me within email sa@sukangetik.com or [Twitter](https://twitter.com/fhpermadi)  
