@@ -72,6 +72,14 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     name = "Categories"
     url = "/categories/"
     title = ""
+  [[menu.main]]
+    weight = 30
+    identifier = "company"
+    pre = ""
+    post = ""
+    name = "Company"
+    url = "https://company.sukangetik.com/"
+    title = "PT Suka Ngetik Digital"
   # [[menu.main]]
   #   weight = 21
   #   identifier = "tech"
