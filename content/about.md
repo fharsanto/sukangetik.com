@@ -24,4 +24,6 @@ In the past, i build a consulting company, mostly helping government scaling the
 
 I build this site for "training" my writing skills.
 
-You can reach me within email sa@sukangetik.com or [Twitter](https://twitter.com/fhpermadi)  
+These days I also run [PT Suka Ngetik Digital](https://company.sukangetik.com/), a small software publisher building [Hargalaku](https://hargalaku.trade/).
+
+You can reach me at [me@sukangetik.com](mailto:me@sukangetik.com) or on [Twitter](https://twitter.com/fhpermadi).
